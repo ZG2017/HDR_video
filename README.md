@@ -10,8 +10,8 @@ including:
 
 # processing pipeline
 1. take series of different exposure photos from same camera but with same exposure ratio.
-2. fit camera response function using logistic regression.
-3. compute comparametric camera response function(CCRF) lookup table.
-4. use CCRF lookup table to generate HDR image from 2 different exposure photos but with same exposure ratio as step one.
+2. fit camera response function using logistic regression based on photos.
+3. compute comparametric camera response function(CCRF) lookup table based on camera response function.
+4. use CCRF lookup table to generate HDR image from 2 different exposure photos but with same exposure ratio as step 1.
 5. apply tune-mapping algorithm to get final output image.
  
